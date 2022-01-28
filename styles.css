@@ -1,0 +1,155 @@
+
+body{
+    font-family:  Arial;
+    margin:0px;
+    padding:0px;
+}
+header, footer, .first, .second, .third, .fourth {
+    display: flex;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+header, footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+footer{
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+a, .subtext{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size:18px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display:flex;
+    gap: 10px;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+}
+.text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.first{
+    display: flex;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+}
+.main{
+    color: #F9FAF8;
+}
+img{
+    background-color: gray;
+    flex-shrink: 0;
+    width:400px;
+    height:auto;
+}
+.image, .hero{
+flex: 1 0 0;
+}
+.hero{
+    padding:30px 30px 30px 0px;
+    flex-shrink: 0;
+}
+.image{
+    padding: 30px 0px 30px 30px;
+    flex-shrink: 0;
+    max-width:100%;
+    
+}
+button{
+    background-color: #3882F6;
+    border:none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+h1{
+    margin:0px;
+}
+.second{
+    display:flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+}
+.box{
+    flex:1;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    min-height: 150px;
+    min-width:  150px;
+    max-height: 150px;
+    max-width:  150px;
+}
+.element{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.text2{
+    text-align: center;
+}
+.third{
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    flex-direction: column;
+}
+.thor{
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+.fourth{
+    padding: 50px 300px;
+}
+.container{
+    display: flex;
+    background-color: #3882F6;
+    width: 100%;
+    padding: 24px 100px;
+    color: #F9FAF8;
+    font-size: 36px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    border: 2px solid white;
+}
+.margin{
+    margin:5px;
+}
+.justify{
+    align-self: center;
+}
